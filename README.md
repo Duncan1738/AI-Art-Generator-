@@ -5,7 +5,7 @@ It leverages **Hugging Face’s `diffusers` library** and **Stable Diffusion v1.
 
 ---
 
-## 📌 What This Code Does
+##  What This Code Does
 ✅ **Installs Required Libraries** – `diffusers`, `transformers`, `torch`.  
 ✅ **Loads Stable Diffusion Model** – Uses `runwayml/stable-diffusion-v1-5`.  
 ✅ **Generates AI Art from Text** – Converts **text prompts into high-quality images**.  

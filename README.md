@@ -1,4 +1,4 @@
-# 🎨 AI Art Generator  
+# AI Art Generator  
 
 This project uses **Stable Diffusion** to generate **high-quality AI-generated artwork** from **text prompts**.  
 It leverages **Hugging Face’s `diffusers` library** and **Stable Diffusion v1.5** to create unique, creative images.

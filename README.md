@@ -22,7 +22,7 @@ Try generating AI art with these prompts:
 
 ---
 
-## 🚀 Technologies Used
+##  Technologies Used
 - **Python** – Core programming language.
 - **Hugging Face Diffusers** – Stable Diffusion model integration.
 - **Torch (PyTorch)** – Deep learning framework.

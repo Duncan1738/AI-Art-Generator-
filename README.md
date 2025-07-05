@@ -30,7 +30,7 @@ Try generating AI art with these prompts:
 
 ---
 
-## 🔧 Installation and Setup
+##  Installation and Setup
 
 ### 1️⃣ **Clone the Repository**
 ```bash

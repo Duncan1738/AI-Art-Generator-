@@ -13,7 +13,7 @@ It leverages **Hugging Face’s `diffusers` library** and **Stable Diffusion v1.
 
 ---
 
-## 🎮 Example Prompts
+## Example Prompts
 Try generating AI art with these prompts:
 - 🎭 `"A fantasy castle floating in the sky"`
 - 🚀 `"An astronaut riding a horse on Mars"`

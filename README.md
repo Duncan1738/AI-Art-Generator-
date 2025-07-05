@@ -67,7 +67,7 @@ image.show()
 ✅ Text Prompt: "A neon-lit futuristic cyberpunk city"
 ✅ Generated Image: (Replace with actual AI-generated image)
 
-🛠️ Use Cases
-🎨 AI Art Generation – Create artistic images from text.
-📌 Concept Art & Design – Generate creative ideas for projects.
-🤖 Creative AI Exploration – Experiment with AI-generated visuals.
+ Use Cases
+AI Art Generation – Create artistic images from text.
+ Concept Art & Design – Generate creative ideas for projects.
+Creative AI Exploration – Experiment with AI-generated visuals.

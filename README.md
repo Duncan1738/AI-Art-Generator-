@@ -18,7 +18,7 @@ Try generating AI art with these prompts:
 -  `"A fantasy castle floating in the sky"`
 -  `"An astronaut riding a horse on Mars"`
 -  `"A futuristic cyberpunk city with neon lights"`
-- 🌲 `"A mystical forest with glowing mushrooms"`
+-  `"A mystical forest with glowing mushrooms"`
 
 ---
 

@@ -63,7 +63,7 @@ image = generate_image(prompt)
 
 # Display the image
 image.show()
-📊 Example Output
+ Example Output
 ✅ Text Prompt: "A neon-lit futuristic cyberpunk city"
 ✅ Generated Image: (Replace with actual AI-generated image)
 

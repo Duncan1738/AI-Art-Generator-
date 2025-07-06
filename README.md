@@ -39,12 +39,13 @@ cd AI-Art-Generator
 
 - Install Dependencies
 pip install diffusers transformers torch
-3️⃣ Run the AI Art Generator
+- Run the AI Art Generator
 python generate_art.py
-📜 Code Overview
+---
+- Code Overview
 from diffusers import StableDiffusionPipeline
 import torch
-
+---
 # Load Stable Diffusion model
 pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5")
 pipe.to("cuda")  # Use GPU for faster generation

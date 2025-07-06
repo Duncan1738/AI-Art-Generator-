@@ -32,7 +32,7 @@ Try generating AI art with these prompts:
 
 ##  Installation and Setup
 
-### 1️⃣ **Clone the Repository**
+ 1️⃣ **Clone the Repository**
 ```bash
 git clone https://github.com/username/AI-Art-Generator.git
 cd AI-Art-Generator

@@ -32,13 +32,12 @@ Try generating AI art with these prompts:
 
 ##  Installation and Setup
 
- 1️⃣ **Clone the Repository**
-```bash
-git clone https://github.com/username/AI-Art-Generator.git
+ - Clone the Repository
+
+git clone https://github.com/Duncan1738/AI-Art-Generator.git
 cd AI-Art-Generator
 
- 2️⃣ Install Dependencies
-
+- Install Dependencies
 pip install diffusers transformers torch
 3️⃣ Run the AI Art Generator
 python generate_art.py

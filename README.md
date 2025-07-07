@@ -64,8 +64,8 @@ image = generate_image(prompt)
 # Display the image
 image.show()
  Example Output
-✅ Text Prompt: "A neon-lit futuristic cyberpunk city"
-✅ Generated Image: (Replace with actual AI-generated image)
+- Text Prompt: "A neon-lit futuristic cyberpunk city"
+- Generated Image: (Replace with actual AI-generated image)
 
  Use Cases
 AI Art Generation – Create artistic images from text.

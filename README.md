@@ -42,35 +42,30 @@ pip install diffusers transformers torch
 - Run the AI Art Generator
 python generate_art.py
 ---
-- Code Overview
+### Code Overview
+```python
 from diffusers import StableDiffusionPipeline
 import torch
----
 # Load Stable Diffusion model
-
 pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5")
 pipe.to("cuda")  # Use GPU for faster generation
-
 # Generate AI Art from Text
-```python
 def generate_image(prompt, steps=50, guidance=7.5):
     print(f"Generating: {prompt}")
     image = pipe(prompt, num_inference_steps=steps, guidance_scale=guidance).images[0]
     image.save("ai_art.png")
     return image
-```
 # Example prompt
-```python
 prompt = "A futuristic cyberpunk city with neon lights"
 image = generate_image(prompt)
-```
 # Display the image
 image.show()
  Example Output
 - Text Prompt: "A neon-lit futuristic cyberpunk city"
 - Generated Image: (Replace with actual AI-generated image)
-
- Use Cases
-AI Art Generation – Create artistic images from text.
- Concept Art & Design – Generate creative ideas for projects.
-Creative AI Exploration – Experiment with AI-generated visuals.
+```
+---
+ ### Use Cases
+- AI Art Generation – Create artistic images from text.
+- Concept Art & Design – Generate creative ideas for projects.
+- Creative AI Exploration – Experiment with AI-generated visuals.

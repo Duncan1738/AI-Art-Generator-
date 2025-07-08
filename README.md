@@ -47,6 +47,7 @@ from diffusers import StableDiffusionPipeline
 import torch
 ---
 # Load Stable Diffusion model
+
 pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5")
 pipe.to("cuda")  # Use GPU for faster generation
 
@@ -59,9 +60,10 @@ def generate_image(prompt, steps=50, guidance=7.5):
     return image
 ```
 # Example prompt
+```python
 prompt = "A futuristic cyberpunk city with neon lights"
 image = generate_image(prompt)
-
+```
 # Display the image
 image.show()
  Example Output

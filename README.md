@@ -51,12 +51,13 @@ pipe = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5")
 pipe.to("cuda")  # Use GPU for faster generation
 
 # Generate AI Art from Text
+```python
 def generate_image(prompt, steps=50, guidance=7.5):
     print(f"Generating: {prompt}")
     image = pipe(prompt, num_inference_steps=steps, guidance_scale=guidance).images[0]
     image.save("ai_art.png")
     return image
-
+```
 # Example prompt
 prompt = "A futuristic cyberpunk city with neon lights"
 image = generate_image(prompt)

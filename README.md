@@ -32,9 +32,7 @@ Try generating AI art with these prompts:
 
 ##  Installation and Setup
 
- - Clone the Repository
-
-git clone https://github.com/Duncan1738/AI-Art-Generator.git
+ - Clone the Repository: git clone https://github.com/Duncan1738/AI-Art-Generator.git
 cd AI-Art-Generator
 
 - Install Dependencies

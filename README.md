@@ -69,3 +69,6 @@ image.show()
 - AI Art Generation – Create artistic images from text.
 - Concept Art & Design – Generate creative ideas for projects.
 - Creative AI Exploration – Experiment with AI-generated visuals.
+
+--- 
+MIT licence
